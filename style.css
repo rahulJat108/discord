@@ -1,0 +1,1076 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.contanier {
+    width: 100%;
+}
+
+
+.box1 {
+    background-color: #404eed;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.box1 .navbar svg {
+    width: 130px;
+    margin-left: 75px;
+    margin-top: -8px;
+    cursor: pointer;
+}
+
+.nav2 {
+    width: 70%;
+
+}
+
+.nav2 a {
+    margin: 0 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav2 a~.login a {
+    text-decoration: none;
+}
+
+.nav2 a:hover {
+    text-decoration: underline;
+}
+
+.login {
+    float: right;
+    width: 15%;
+    cursor: pointer;
+
+}
+
+.login a {
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 7px 16px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    transition: all .2s;
+    color: black;
+    text-decoration: none;
+}
+
+.login a:hover {
+    color: #404eed;
+    box-shadow: 1px 5px 16px 1px blue;
+}
+
+.box2 {
+    width: 100%;
+    position: relative;
+    min-height: 39rem;
+    overflow: hidden;
+}
+
+.box2 .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 12%;
+    position: relative;
+    z-index: 1;
+}
+
+.box2 img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#bg-3 {
+    position: absolute;
+    left: 0;
+    top: 72%;
+}
+
+#bg-4 {
+    position: absolute;
+    left: 94%;
+    top: 72%;
+}
+
+.header h1 {
+    font-size: 56px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.header p {
+    width: 60%;
+    margin-top: 2%;
+    line-height: 1.7;
+    font-size: 19px;
+    font-family: sans-serif;
+    color: white;
+    margin-bottom: 3%;
+}
+
+.head-button svg {
+    width: 22px;
+    margin-right: 5px;
+}
+
+.head-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+
+.download-for-w a,
+.open-discard a {
+    text-decoration: none;
+    color: white;
+}
+
+.download-for-w a:hover {
+    color: #404eed;
+}
+
+.open-discard {
+    background-color: rgb(48, 48, 48);
+    cursor: pointer;
+    padding: 16px 32px;
+    border-radius: 40px;
+
+}
+
+.open-discard:hover {
+    box-shadow: 1px 5px 19px -1px rgb(48, 48, 48);
+    transition: all 0.5s linear;
+    background-color: #3f3f3f;
+}
+
+.download-for-w a {
+    color: black;
+}
+
+.download-for-w {
+    margin-right: 15px;
+    background-color: white;
+    cursor: pointer;
+    padding: 14px 32px;
+    border-radius: 40px;
+
+}
+
+.download-for-w:hover {
+    color: #404eed;
+    box-shadow: 1px 5px 16px 1px blue;
+    transition: all 0.5s linear;
+}
+
+.study,
+.just {
+    padding-bottom: 10%;
+}
+
+.study {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* align-items: center; */
+    transition: all 1.0s linear;
+    animation-name: example;
+    animation-duration: 4s;
+    width: 100%;
+    padding-top: 10%;
+
+}
+
+
+
+.sty-img {
+    width: 50%;
+    margin-left: 70px;
+}
+
+.sty-img img {
+    width: 93%;
+
+}
+
+.Create-an-invite {
+    width: 50%;
+    margin: 25px 45px;
+}
+
+.Create-an-invite h1,
+p {
+    width: 65%;
+}
+
+.Create-an-invite h1 {
+    font-size: 40px;
+    color: rgb(31, 31, 31);
+    font-weight: 800;
+}
+
+.Create-an-invite p {
+    padding-top: 20px;
+    line-height: 1.5;
+    font-size: 20px;
+    color: #23272a;
+}
+
+.just {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: row-reverse;
+    width: 100%;
+    padding-top: 10%;
+    background-color: #f6f6f6;
+}
+
+.just-img {
+    width: 50%;
+    margin-right: 70px;
+}
+
+.just-img img {
+    width: 95%;
+}
+
+.where-hanging {
+    width: 50%;
+    margin: 25px 45px 25px 140px;
+}
+
+.where-hanging h1,
+p {
+    width: 65%;
+}
+
+.where-hanging h1 {
+    font-size: 40px;
+    color: rgb(31, 31, 31);
+    font-weight: 800;
+}
+
+.where-hanging p {
+    padding-top: 20px;
+    line-height: 1.5;
+    font-size: 20px;
+    color: #23272a;
+}
+
+.reliable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 10%;
+    background-color: #f6f6f6;
+}
+
+.reliable-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.reliable-text h1 {
+    margin-bottom: 24px;
+    font-size: 46px;
+    font-weight: 800;
+    color: #23272a;
+    text-transform: uppercase;
+    line-height: 100%
+}
+
+.reliable-text p {
+    font-size: 20px;
+    line-height: 28px;
+    color: #23272a;
+}
+
+.reliable-img {
+    background-attachment: scroll !important;
+}
+
+.reliable-img img {
+    width: 70rem;
+}
+
+.ready-to-start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #f6f6f6;
+    position: relative;
+
+
+}
+
+.ready {
+    width: 100%;
+}
+
+.ready img {
+    max-width: 80%;
+    min-height: 150px;
+    min-width: 0%;
+    margin-top: -77px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 9%;
+    top: 30%;
+}
+
+.ready h3 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #23272a;
+
+}
+
+.ready-download-button svg {
+    width: 20px;
+}
+
+.ready-download-button {
+    width: auto;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    color: #fff;
+    text-align: center;
+    background-color: #5865f2;
+    border-radius: 28px;
+    align-items: center;
+    margin-top: 40px;
+    padding: 14px 32px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    transition: all .4s;
+    display: flex;
+}
+
+.ready-download-button:hover {
+    background-color: #767fe9;
+    box-shadow: 2px 11px 24px -7px rgb(116, 116, 116);
+}
+
+.ready-download-button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer {
+    background-color: #23272a;
+    padding-top: 80px;
+    padding-bottom: 64px;
+    position: relative;
+    color: white;
+    overflow: visible;
+    width: 100%;
+
+}
+
+
+.middel-footer {
+    margin-left: 60px;
+    margin-right: 60px;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+
+
+}
+
+.second-footer {
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+    position: relative;
+}
+
+#fa {
+    color: aliceblue;
+    cursor: pointer;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 103px;
+}
+
+.cuntry .list {
+    display: none;
+
+    background-color: #fff;
+    position: absolute;
+    top: 17px;
+    left: 103px;
+    width: 250px;
+    max-height: 200px;
+    /* overflow: hidden; */
+    overflow-y: scroll;
+    padding: 20px;
+    transition: max-hight 0.5s;
+
+}
+
+.show {
+    display: block;
+    background-color: aqua;
+}
+
+.cuntry .list .item {
+    color: #23272a;
+    display: flex;
+    gap: 0.5rem;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+
+
+.cuntry nav img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.cuntry img {
+    width: 24px;
+    height: 16px;
+    margin-right: 8px;
+    margin-bottom: -4px;
+}
+
+.cuntry img:hover {
+    cursor: pointer;
+}
+
+
+.second-footer .icon {
+    margin-top: 30px;
+}
+
+.second-footer .icon svg {
+    margin-right: 21px;
+}
+
+.second-footer .icon svg:hover {
+    cursor: pointer;
+}
+
+.op-box {
+    display: flex;
+    position: relative;
+    left: 30%;
+    top: -100px;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -84px;
+}
+
+
+.op-box .op-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 45%;
+}
+
+.op-1 .paragraph-small {
+    color: #5865f2;
+    margin-bottom: 18px;
+}
+
+.op-box .op-1 a {
+    display: flex;
+    padding: 7px;
+    color: white;
+    text-decoration: none;
+}
+
+.op-box .op-1 a:hover {
+    text-decoration: underline;
+}
+
+#product-box {
+    position: relative;
+    top: -95px;
+}
+
+#company-box {
+    position: relative;
+    top: -113px;
+}
+
+#Resources-box {
+    position: relative;
+    top: 0;
+}
+
+#policies-box {
+    position: relative;
+    top: -63px;
+}
+
+.line {
+    border-top: 1px solid #5865f2;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 32px;
+    padding-top: 32px;
+    display: flex;
+    height: 1px;
+    width: 90%;
+    margin-left: 65px;
+}
+
+.footer-b {
+    display: flex;
+    justify-content: right;
+    width: 93%;
+    position: relative;
+    top: -40px;
+
+
+}
+
+.footer-end-logo svg {
+    cursor: pointer;
+
+}
+
+.footer-b a {
+    color: #fff;
+    background-color: #5865f2;
+    border-radius: 40px;
+    padding: 11px 16px;
+    text-decoration: none;
+    transition: all .2s;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.footer-b a:hover {
+    background-color: #737df0;
+}
+
+
+
+@media (max-width:972px) {
+    /* .contanier{
+        width: 110%;
+    } */
+
+    .navbar {
+        width: 100%;
+        position: fixed;
+        background-color: #404eed;
+        z-index: 2;
+        padding-bottom: 20px;
+    }
+
+    .nav2 a {
+        display: none;
+    }
+
+    .nav2 .login a {
+        display: flex;
+    }
+
+    .box1 .navbar svg {
+        width: 180px;
+    }
+
+    .nav2 .login a {
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    .box2 .header {
+        display: block;
+        left: 65px;
+        text-align: left;
+    }
+
+    .box2 {
+        min-height: 60rem;
+    }
+
+    .header h1 {
+        font-size: 75px;
+    }
+
+    .header p {
+        width: 80%;
+        font-size: 23px;
+    }
+
+    .head-button {
+        justify-content: left;
+        font-size: 25px;
+    }
+
+    .box2 img {
+        display: none;
+    }
+
+    #bg-3 {
+        display: block;
+        left: 40%;
+        top: 77%;
+        width: 70%;
+    }
+
+    .study {
+        display: block;
+        padding-top: 5%;
+    }
+
+    .sty-img {
+        width: 80%;
+        margin-left: 100px;
+        text-align: center;
+    }
+
+    .Create-an-invite {
+        width: auto;
+    }
+
+    .Create-an-invite h1 {
+        font-weight: 600;
+        width: 100%;
+    }
+
+    .Create-an-invite p {
+        font-size: 26px;
+        width: auto;
+        padding-top: 36px;
+    }
+
+    .just {
+        display: block;
+        padding-top: 5%;
+    }
+
+    .just-img {
+        width: 80%;
+        text-align: center;
+        margin-left: 69px;
+    }
+
+    .where-hanging {
+        width: 80%;
+        margin-left: 55px;
+    }
+
+    .where-hanging h1 {
+        font-weight: 600;
+    }
+
+    .where-hanging p {
+        padding-top: 40px;
+        font-size: 27px;
+        width: auto;
+    }
+
+    .reliable-text h1 {
+        font-size: 50px;
+        width: 80%;
+        margin-bottom: 40px;
+
+    }
+
+    .reliable-text p {
+        font-size: 23px;
+        width: 80%;
+        line-height: 39px;
+    }
+
+    .ready-download-button {
+        border-radius: 40px;
+        padding: 22px 53px;
+        font-size: 29px;
+    }
+
+    .ready-download-button svg {
+        width: 47px;
+    }
+
+    .ready h3 {
+        font-size: 47px;
+
+    }
+
+    .footer {
+        height: 68rem;
+    }
+
+    /* .line{
+        position: relative;
+        top: 13rem;
+    } */
+
+    .sign-logo {
+        position: relative;
+        top: 13rem;
+    }
+
+    .op-box {
+        width: 60%;
+        left: 44%;
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+
+    #product-box {
+
+        top: -113px;
+    }
+
+    #company-box {
+
+        top: -143px;
+        left: 24%;
+    }
+
+    #Resources-box {
+        left: -48%;
+        top: 300px;
+    }
+
+    #policies-box {
+        top: 235px;
+        left: -24%;
+    }
+}
+
+
+@media (min-width:920px) and (max-width:1130px) {
+    .contanier {
+        width: 118%;
+    }
+}
+
+@media (min-width:806px) and (max-width:920px) {
+    .contanier {
+        width: 134%;
+    }
+}
+
+@media (min-width:700px) and (max-width:806px) {
+    .contanier {
+        width: 155%;
+    }
+}
+
+@media (max-width:760px) {
+    .op-box {
+        top: 50px;
+        left: 80px;
+        font-size: 27px;
+    }
+
+    .sign-logo {
+        position: relative;
+        top: 31rem;
+    }
+
+    .footer {
+        height: 90rem;
+    }
+
+    #product-box {
+        top: -124px;
+    }
+
+    #company-box {
+        top: -193px;
+        /* left: 24%; */
+    }
+
+    #Resources-box {
+        /* left: -48%; */
+        top: 417px;
+    }
+
+    #policies-box {
+        top: 310px;
+        /* left: -24%; */
+    }
+}
+
+@media (min-width:600px) and (max-width:700px) {
+    .contanier {
+        width: 180%;
+    }
+}
+
+@media (min-width:500px) and (max-width:600px) {
+    .contanier {
+        width: 214%;
+    }
+}
+
+@media (min-width:394px) and (max-width:500px) {
+    .contanier {
+        width: 250%;
+    }
+}
+@media (min-width:300px) and (max-width:400px) {
+    .contanier {
+        width: 290%;
+    }
+}
+@media (min-width:250px) and (max-width:300px) {
+    .contanier {
+        width: 350%;
+    }
+}
+
+
+@media (max-width: 345px) {
+    .contanier {
+        width: 321%;
+    }
+
+    .navbar {
+        height: 335px;
+    }
+
+    .box1 .navbar svg {
+        width: 437px;
+    }
+
+    .login {
+        width: 33%;
+    }
+
+    .nav2 .login a {
+        font-size: 43px;
+        padding: 33px 57px;
+    }
+
+    .box2 {
+        height: 160rem;
+    }
+
+    .box2 .header {
+        position: relative;
+        top: 19rem;
+    }
+
+    .header h1 {
+        font-size: 91px;
+    }
+
+    .header p {
+        width: 90%;
+        font-size: 50px;
+    }
+
+    .head-button {
+        display: block;
+        width: 75%;
+    }
+
+    .download-for-w {
+        padding: 75px 52px;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 55px;
+    }
+
+    .head-button svg {
+        width: 66px;
+        margin-right: 21px;
+    }
+
+    .open-discard {
+        padding: 84px 32px;
+        border-radius: 76px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 47px;
+        margin-top: 85px;
+    }
+
+    #bg-3 {
+        display: block;
+        left: 35%;
+        top: 87%;
+        width: 121%;
+    }
+
+    .sty-img {
+        width: 95%;
+        margin: 0;
+        /* text-align: center; */
+    }
+
+    .sty-img img {
+        width: 102%;
+    }
+
+    .study {
+        height: auto;
+    }
+
+    .Create-an-invite h1 {
+        font-size: 68px;
+    }
+
+    .Create-an-invite p {
+        font-size: 50px;
+    }
+
+    .just {
+        height: auto;
+    }
+
+    .just-img {
+        width: 90%;
+    }
+
+    .just-img img {
+        width: 102%;
+    }
+
+    .where-hanging {
+        width: 90%;
+    }
+
+
+    .where-hanging h1 {
+        /* font-weight: 600; */
+        font-size: 70px;
+        width: auto;
+    }
+
+    .where-hanging p {
+        font-size: 55px;
+    }
+
+    .reliable-text h1 {
+        font-size: 130px;
+        width: auto;
+        display: flex;
+        margin-bottom: 87px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .reliable-text p {
+        font-size: 48px;
+        width: auto;
+        line-height: 1.2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 20px;
+    }
+
+    .ready img{
+        max-width: 88%;
+        left: 5%;
+    }
+
+    .ready h3 {
+        font-size: 90px;
+    }
+
+    .ready-download-button {
+        border-radius: 136px;
+    padding: 70px 126px;
+        font-size: 70px;
+    }
+
+    .cuntry img {
+    width: 104px;
+    height: 52px;
+    }
+
+    .dropdown span{
+            font-size: 50px;
+    margin-bottom: 95px;
+
+    }
+
+    .second-footer .icon svg {
+        
+        margin-top: 50px;
+        width: 8%;
+    }
+
+    .op-box {
+        top: 50px;
+        left: 195px;
+        font-size: 45px;
+    }
+
+    #company-box {
+        top: -235px;
+        /* left: 24%; */
+    }
+
+    #Resources-box {
+        left: -80%;
+        top: 46rem;
+    }
+
+    #policies-box {
+        top: 38rem;
+        left: -53%;
+    }
+
+    .footer {
+        height: 147rem;
+    }
+
+    .sign-logo {
+        position: relative;
+        top: 53rem;
+    }
+
+    .line {
+        border-top: 5px solid #5865f2;
+    }
+    
+    .footer-b a {
+        font-size: 42px;
+    }
+
+}
